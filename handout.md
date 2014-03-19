@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: page
 ---
 Open Data, Law and Licensing[**[1]**](#_ftn1) {align="center" style="text-align:center"}
 =============================================
