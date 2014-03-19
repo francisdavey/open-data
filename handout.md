@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: page
 title: Open Data Law and Licensing
 
 ---
