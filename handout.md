@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: simple-page
 ---
 Open Data, Law and Licensing[^1] {align="center" style="text-align:center"}
 =============================================
