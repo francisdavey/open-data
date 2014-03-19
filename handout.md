@@ -2,6 +2,7 @@
 
 layout: page
 title: Open Data Law and Licensing
+published: true
 
 ---
 Open Data, Law and Licensing[**[1]**](#_ftn1) {align="center" style="text-align:center"}
