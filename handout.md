@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-Open Data, Law and Licensing[**[1]**](#_ftn1) {align="center" style="text-align:center"}
+Open Data, Law and Licensing[^1] {align="center" style="text-align:center"}
 =============================================
 
 Francis Davey[[2]](#_ftn2)
@@ -921,7 +921,7 @@ very unlikely for liability to be found.
 
 * * * * *
 
-[[1]](#_ftnref1) version 4.3
+[^1]: version 4.4
 
 [[2]](#_ftnref2) contact@francisdavey.co.uk
 
