@@ -1,7 +1,10 @@
+---
+title: "Open Data, Law and Licensing"
+---
 Open Data, Law and Licensing[^1] {align="center" style="text-align:center"}
 =============================================
 
-Francis Davey[[2]](#_ftn2)
+Francis Davey[^2]
 
 Introduction
 ------------
@@ -20,11 +23,11 @@ The legal world is, broadly speaking, divided into “jurisdictions”. In
 each jurisdiction the law is different and interpreted by different sets
 of courts. In the UK the jurisdictions are:
 
-·      England and Wales
+* England and Wales
 
-·      Scotland
+* Scotland
 
-·      Northern Ireland
+* Northern Ireland
 
 Scots law is much less like the law of the rest of the UK, but it still
 has a great deal in common.
@@ -57,7 +60,7 @@ In Scotland the Scottish Parliament can also make its own “Acts of the
 Scottish Parliament”.
 
 The other significant component of law is the interpretation of the law
-by the courts.[[3]](#_ftn3) In the UK a great deal of law was once made
+by the courts.[^3] In the UK a great deal of law was once made
 entirely by the courts working from various first principles and without
 any legislation to go on. For example the law of breach of confidence
 was entirely made up by the courts of England and Wales without help
@@ -74,9 +77,9 @@ need to be “transposed” into the law of a member state. The idea being
 that a directive will set out a template for the law, but some detail
 will be left to the legislators in each member state to fill in.
 
-For example, the Database Directive[[4]](#_ftn4) was transposed into UK
+For example, the Database Directive[^4] was transposed into UK
 law by the Copyright and Rights in Databases Regulations
-1997.[[5]](#_ftn5)
+1997.[^5]
 
 ### Precedent
 
@@ -186,15 +189,15 @@ All that argument, though very interesting for academics, is now past.
 In Europe, whether or not a work is protected by copyright (the
 “subsistence” of copyright) has been harmonized by three directives:
 
-·      the software directive – for computer programs
+* the software directive – for computer programs
 
-·      the database directive – for databases
+* the database directive – for databases
 
-·      the information society directive – for everything else.
+* the information society directive – for everything else.
 
 In all cases the criterion (replacing the English conception of
 “originality”) is that a work is protected if it is its author’s “own
-intellectual creation”.[[6]](#_ftn6) The ECJ has explained that “own
+intellectual creation”.[^6] The ECJ has explained that “own
 intellectual creation” implies a creative choice made by the author.
 They must make use of “formative freedom” so that the author puts the
 stamp of their personality on work. If there is no “formative freedom” –
@@ -209,26 +212,25 @@ How copyright protects the structure of databases will be dealt with
 next, but open data may involve copyright works as the **contents** of a
 database. In an open data context there is probably a contrast between:
 
-·      pure data – eg temperature values or GPS co-ordinates (almost
+* pure data – eg temperature values or GPS co-ordinates (almost
 certainly not protected individually)
 
-·      copyrightable works – eg images, user comments
+* copyrightable works – eg images, user comments
 
 ### General features of copyright
 
 Some useful general features of copyright are worth noting:
 
-·      no formalities are required – copyright “just happens” when a
+* no formalities are required – copyright “just happens” when a
 work is created, you do not have to register or claim it in any
-way[[7]](#_ftn7)
+way[^7]
 
-·      you do not even have to mark your work with a copyright notice
-(C) or something similar
+* you do not even have to mark your work with a copyright notice (C) or something similar
 
-·      copyright belongs to the author in most cases (films and sound
+* copyright belongs to the author in most cases (films and sound
 recordings being an exception)
 
-·      **unless** the author creates the work in the course of
+* **unless** the author creates the work in the course of
 employment, when it will first belong to the employer
 
 ### Infringement of copyright
@@ -236,11 +238,11 @@ employment, when it will first belong to the employer
 Copyright in a work is infringed by doing any of the following without
 permission of the copyright owner:
 
-·      reproducing the work (i.e. copying it)
+* reproducing the work (i.e. copying it)
 
-·      distributing the work
+* distributing the work
 
-·      communicating the work to the public (eg publishing it on a web
+* communicating the work to the public (eg publishing it on a web
 page or via an API)
 
 ### Modern database protection
@@ -255,11 +257,11 @@ Thus a “database” is what a computer scientist might call a “data set”.
 A database does not have to be held on a computer. Examples of databases
 which are not electronic might be:
 
-·      a library (arranged according to the Dewey Decimal system)
+* a library (arranged according to the Dewey Decimal system)
 
-·      an anthology of poems organised by author (and date)
+* an anthology of poems organised by author (and date)
 
-·      a parish register (arranged by date)
+* a parish register (arranged by date)
 
 If a database is held on a computer, the computer software that manages
 the database is not a part of the “database” for IP purposes. It would
@@ -290,18 +292,18 @@ database right.
 The database right applies to a database where there has been a
 substantial investment in one or more of three factors:
 
-·      obtaining
+* obtaining
 
-·      verifying
+* verifying
 
-·      presenting
+* presenting
 
 the contents of the database. Here “substantial” can mean either
 quantitatively substantial – for example lots of time or money; or
 qualitatively substantial – for example the use of experts to collect
 the data (as happened in *Football Dataco v Stan James below*).
 
-#### Fixtures Marketing v Organismos prognostikon agonon podosfairou[**[8]**](#_ftn8)
+#### Fixtures Marketing v Organismos prognostikon agonon podosfairou[^8]
 
 The Court of Justice explained that “obtaining” was different from
 “creating”. The football leagues of England and Scotland claimed they
@@ -319,7 +321,7 @@ in creating database infrastructure. The football league needed no
 encouragement via the database right to invest in their database of
 fixtures lists. They would have created such a thing anyway.
 
-#### Football Dataco v Stan James[**[9]**](#_ftn9)
+#### Football Dataco v Stan James[^9]
 
 Where is the line drawn between “obtaining” and “creating”? Some
 academics have suggested that a common form of data collection – going
@@ -337,14 +339,14 @@ This was a case about databases of public legal information. For an open
 data perspective, the most interesting part of the decision was that
 simply because information is collected form publicly accessible data
 sources does not preclude it from being protected by the database
-right.[[10]](#_ftn10)
+right.[^10]
 
 The court (re)-iterated a few other points that are worth remembering:
 
-·      “Extraction” (see below) relies on a transfer of the contents of
+* “Extraction” (see below) relies on a transfer of the contents of
 the database. The purpose of that transfer is irrelevant.
 
-·      It may be that the contents of database B resemble those of an
+* It may be that the contents of database B resemble those of an
 earlier database A. That may be because of a transfer of the contents of
 A to B but there may be other good explanations. There is no rule B
 infringes A just because it looks the same.
@@ -354,9 +356,9 @@ infringes A just because it looks the same.
 The database right protects the owner against three things being done
 without their permission. The first two are:
 
-·      extraction; or
+* extraction; or
 
-·      re-utilisation
+* re-utilisation
 
 of a substantial part of the database.
 
@@ -365,23 +367,23 @@ possibility of taking “little and often”. The directive also makes
 conduct an infringement of the database right if it consists of all of
 the following:
 
-·      repeated and systematic;
+* repeated and systematic;
 
-·      extraction and/or re-­utilisation of **insubstantial** parts of
+* extraction and/or re-­utilisation of **insubstantial** parts of
 the contents of the database;
 
-·      implying acts which:
+* implying acts which:
 
 o    conflict with a normal exploitation of that database
 
 o   or which unreasonably prejudice the legitimate interests of the
-maker[[11]](#_ftn11)
+maker[^11]
 
 An **extraction** is involved when the database appears in a new medium.
 It does not matter if there has been human intervention – even selective
 intervention – in between.
 
-For example in the Directmedia Case,[[12]](#_ftn12) a University owned a
+For example in the Directmedia Case,[^12] a University owned a
 database of the “100 most important poems in German literature between
 1730 and 1900. Directmedia created their own anthology, using the
 database as a guide to which poems to select from that period. They were
@@ -391,7 +393,7 @@ that could be an “extraction”.
 **Re-utilisation** means making (a substantial part of) the database
 available for members of the public to access.
 
-For example in the Innoweb Case,[[13]](#_ftn13) a meta search engine
+For example in the Innoweb Case,[^13] a meta search engine
 (“GasPedaal”) would, in response to a user query, make its own queries
 to a number of automotive websites and in particular one known as
 Autotrack. A member of the public could, in principle, access a
@@ -427,9 +429,9 @@ exist in a database as well as both or neither. Neither right is
 To obtain copyright a database must be original, in that one of two
 things must be the author’s “own intellectual creation”. Either the:
 
-·      selection or
+* selection or
 
-·      arrangement.
+* arrangement.
 
 For example the 100 most important poems in German literature between
 1730 and 1900 could claim copyright on the basis of the selection of the
@@ -460,7 +462,7 @@ normally attract either database right or database copyright.
 There are a few other rights that might protect information alone, which
 I will deal with briefly here.
 
-·      Confidential information – if information is given in confidence
+* Confidential information – if information is given in confidence
 then it is a *breach of confidence* to communicate it to someone else.
 Information that has been published will almost never be confidential.
 The law of confidential information is fairly common-sense. For open
@@ -468,12 +470,12 @@ data the take-home is to make sure that data you publish hasn’t been
 obtained in breach of confidence or been the subject of confidence at
 some point.
 
-·      “Hot news”[[14]](#_ftn14) – this is an idea that had some
+* “Hot news”[^14] – this is an idea that had some
 currency in the US for a while, though it is probably now much less
-important[[15]](#_ftn15) – it was a doctrine that protected “hot” (i.e.
+important[^15] – it was a doctrine that protected “hot” (i.e.
 time critical) news.
 
-·      German Leistungsschutzrecht für Presseverlege (aka “Lex Google”)
+* German Leistungsschutzrecht für Presseverlege (aka “Lex Google”)
 a right over news content for one year.
 
 ### Effective technological measures
@@ -518,22 +520,22 @@ conditions of the licence infringing copyright.
 
 Licences may also be restricted in various ways, eg they may be
 
-·      exclusive or non-exclusive
+* exclusive or non-exclusive
 
-·      limited by jurisdiction (eg a UK licence)
+* limited by jurisdiction (eg a UK licence)
 
-·      limited by time
+* limited by time
 
-·      revocable in certain circumstances (or simply at the choice of
+* revocable in certain circumstances (or simply at the choice of
 the licensor)
 
-·      subject to the making of regular payments or payments calculated
+* subject to the making of regular payments or payments calculated
 by some use made by the licensee (eg royalties)
 
 Hence a common bit of boilerplate one sees is:
 
 “a non-exclusive irrevocable, perpetual, royalty-free
-worldwide[[16]](#_ftn16) licence …”
+worldwide[^16] licence …”
 
 ### What is “open”?
 
@@ -543,12 +545,12 @@ different things. For the ODI and for the purposes of today’s talk,
 
 A piece of data or content is open if anyone is free to use, reuse, and
 redistribute it — subject only, at most, to the requirement to attribute
-and/or share-alike.”[[17]](#_ftn17)
+and/or share-alike.”[^17]
 
 ### Share-alike / viral licensing
 
 One of the pioneers of open licensing was Richard Stallman, the founder
-of the GNU project.[[18]](#_ftn18) For Stallman it was important that
+of the GNU project.[^18] For Stallman it was important that
 users of software had access to the source code so they could make their
 own modifications and alterations to it. Those changes might then be
 used to create better software for everyone, not just the person who
@@ -570,22 +572,22 @@ in speech, not as in beer” is how he put it.
 
 #### Examples:
 
-·      GPL (GNU Public Licence) – open source software
+* GPL (GNU Public Licence) – open source software
 
-·      CC-BY-SA (Creative Commons Attribution Share-Alike) – for works
+* CC-BY-SA (Creative Commons Attribution Share-Alike) – for works
 of art, literature etc
 
-·      ODbL (Open Database License) – for collections of data
+* ODbL (Open Database License) – for collections of data
 
 There are many non-viral licences. For example:
 
-·      CC0
+* CC0
 
-·      CC-BY
+* CC-BY
 
-·      PPDL
+* PPDL
 
-·      Open Government Licence
+* Open Government Licence
 
 ### Multiple licences
 
@@ -621,7 +623,7 @@ right. You may want to use a different licence for the contents of your
 database than for the database as a whole. You might even have to do
 that if the contents were licensed to you under specific open licences.
 
-Government – OGL (now in version 2.0[[19]](#_ftn19))
+Government – OGL (now in version 2.0[^19])
 
 ### Pure public domain
 
@@ -634,25 +636,25 @@ Creative Commons
 
 Creative commons offers a number of options
 
-·      use restrictions: none, or non-commercial (NC)
+* use restrictions: none, or non-commercial (NC)
 
-·      re-use restrictions: none, share-alike (SA) or no derivatives
+* re-use restrictions: none, share-alike (SA) or no derivatives
 (ND)
 
 All options (other than CC0 above) require attribution (BY). Which
 results in 6 possible variants:
 
-·      BY
+* BY
 
-·      BY-ND
+* BY-ND
 
-·      BY-SA
+* BY-SA
 
-·      BY-NC
+* BY-NC
 
-·      BY-NC-ND
+* BY-NC-ND
 
-·      BY-NC-SA
+* BY-NC-SA
 
 Both NC and ND are **not** open licence choices since they impose
 further restrictions on use. NC is particularly unhelpful because it is
@@ -661,7 +663,7 @@ website which is monetized by advertising? Thus only CC-BY and CC-BY-SA
 are “open” licences.
 
 Creative Commons have recently introduced version 4.0 of their licence
-suite,[[20]](#_ftn20) which now covers the database right (and analogous
+suite,[^20] which now covers the database right (and analogous
 rights in other jurisdictions) as well as copyright. A CC licence may be
 applied to any licensed work – so it may be applied simply to the
 structure of a database and not its contents (in much the same way as
@@ -669,13 +671,13 @@ ODC licences) – but unless otherwise noted a CC licence applied to a
 database is likely to apply to both the contents and the (structure,
 collection etc of the) database.
 
-### Open Data Commons[**[21]**](#_ftn21)
+### Open Data Commons[^21]
 
 As well as the PDDL the ODC offers two database licences:
 
-·      ODC-By (attribution)
+* ODC-By (attribution)
 
-·      ODC-ODbL (attribution and share-alike)
+* ODC-ODbL (attribution and share-alike)
 
 These apply only to the database and not its contents. If the contents
 may contain copyrightable material, you should consider an open licence
@@ -697,15 +699,15 @@ the licensed work. But the two licences do so differently.
 ODC-ODbL, contemplates three different kinds of derived work:
 “derivative databases”, “collective databases” and “produced works”:
 
-·      a “derivative database” is just a new database based on the
+* a “derivative database” is just a new database based on the
 licensed database (eg by modifying, translating or otherwise adapting
 it)
 
-·      a “collective database” is a larger database containing the
+* a “collective database” is a larger database containing the
 licensed database in unmodified form but combined with other independent
 databases
 
-·      a “produced work” is some other work (eg a report or
+* a “produced work” is some other work (eg a report or
 info-graphic) derived from the licensed database (or a derivative
 database or collective database containing the licensed database).
 
@@ -736,10 +738,10 @@ using it, they would have to show that they had a licence.
 
 All that is needed is:
 
-·      reference to the licensing information in a clear place (eg the
+* reference to the licensing information in a clear place (eg the
 footer of a website)
 
-·      a clear statement of what is licensed and what (if anything) is
+* a clear statement of what is licensed and what (if anything) is
 not
 
 Both CC and ODC licences have clear instructions on how to apply their
@@ -754,12 +756,12 @@ others to use the data ways undesirable to the proprietor.
 
 ### Computer Misuse
 
-In the UK it is an offence[[22]](#_ftn22) to access any computer in
+In the UK it is an offence[^22] to access any computer in
 order to obtain access to data where:
 
-·      access to the data is unauthorised
+* access to the data is unauthorised
 
-·      the offender knows that it is unauthorised
+* the offender knows that it is unauthorised
 
 This is particularly relevant to those involved in “scraping” data –
 that is automatically simulating the action of a web browser and
@@ -785,9 +787,9 @@ provided in a particular way.
 The take away lesson for licensing of open data on a website or
 otherwise on the internet is that:
 
-·      your licence should be clear about what kind of access is allowed
+* your licence should be clear about what kind of access is allowed
 
-·      you can, in principle, prevent particular people using your data
+* you can, in principle, prevent particular people using your data
 by expressly prohibiting it in your licence and making it clear that you
 consider any breach of those terms a criminal act.
 
@@ -818,7 +820,7 @@ that kind ought to be rare.
 
 Open data may also be personal data. Personal data protection law is
 mostly harmonised across the EU by the Data Protection
-Directive.[[23]](#_ftn23) In the UK personal data is governed by the
+Directive.[^23] In the UK personal data is governed by the
 Data Protection Act 1998. In the directive, “personal data” is defined
 as:
 
@@ -832,23 +834,23 @@ economic, cultural or social identity”
 
 This means the following are likely to be personal data:
 
-·      email addresses
+* email addresses
 
-·      patient data with the patient’s name removed
+* patient data with the patient’s name removed
 
-·      chatty blog posts saying things like “I met my friend Pete today”
+* chatty blog posts saying things like “I met my friend Pete today”
 
 Personal data law is too complex to deal with in a morning’s talk. There
 is considerable guidance on the Information Commissioner’s website
 (possibly too much) and elsewhere. The take-away for open data is that:
 
-·      processing personal data requires the satisfying of numerous
+* processing personal data requires the satisfying of numerous
 legal requirements contained in the Data Protection Act 1998
 
-·      many of these can be avoided with the **informed** consent of the
+* many of these can be avoided with the **informed** consent of the
 data subject
 
-·      suitably anonymising data – which may also require aggregation – 
+* suitably anonymising data – which may also require aggregation – 
 will prevent it being personal data
 
 Removing personal identifiers is not usually enough, because the natural
@@ -860,8 +862,8 @@ aggregation of information or some other way to remove any practical
 possibility of “re-identifying” the data subject.
 
 The Information Commissioner publishes a code of practice on
-anonymisation.[[24]](#_ftn24) An Open Data Institute sponsored
-initiative the “UK Anonymisation Network”[[25]](#_ftn25) can give advice
+anonymisation.[^24] An Open Data Institute sponsored
+initiative the “UK Anonymisation Network”[^25] can give advice
 on anonymisation.
 
 Take away for licensing: in most cases ensure that your data does not
@@ -880,16 +882,16 @@ It is also possible to be liable for inaccuracies in information under
 the common law tort of “negligent misstatement”. If an inaccurate
 statement is made such that:
 
-·      someone – the recipient – relies on that statement for some
+* someone – the recipient – relies on that statement for some
 particular purpose
 
-·      it was reasonable for them to rely on the statement for that
+* it was reasonable for them to rely on the statement for that
 purpose
 
-·      the maker of the statement intended the recipient to rely on the
+* the maker of the statement intended the recipient to rely on the
 statement in that way
 
-·      the recipient suffers economic loss as a result of their reliance
+* the recipient suffers economic loss as a result of their reliance
 on the statement
 
 Then the maker of the statement **may** be liable for the recipient’s
@@ -901,7 +903,7 @@ of the statement is found not to be liable.
 For example, although auditors of a company’s accounts may owe limited
 duties of care to the shareholders, they do not owe that duty to
 third-party investors who may be misled into investing as a result of an
-inaccurate statement.[[26]](#_ftn26)
+inaccurate statement.[^26]
 
 My view is that this is an unlikely form of liability to occur, but it
 may be avoided by attacking the “reasonable reliance” criterion. When
@@ -910,90 +912,85 @@ rule) a warning that the data may contain inaccuracies etc in much the
 same way as a disclaimer in a contract described above, should make it
 very unlikely for liability to be found.
 
- 
-
- 
-
-\
 
 * * * * *
 
 [^1]: version 4.4
 
-[[2]](#_ftnref2) contact@francisdavey.co.uk
+[^2]: contact@francisdavey.co.uk
 
-[[3]](#_ftnref3) In Scots law there are some significant academic works
+[^3]: In Scots law there are some significant academic works
 by the so-called “institutional writers” which are treated as being
 formal statements of law.
 
-[[4]](#_ftnref4) [Directive
+[^4]: [Directive
 96/9/EC](http://eur-lex.europa.eu/smartapi/cgi/sga_doc?smartapi!celexapi!prod!CELEXnumdoc&numdoc=31996L0009&model=guichett&lg=en)
 
-[[5]](#_ftnref5) See:
+[^5]: See:
 http://www.legislation.gov.uk/uksi/1997/3032/contents/made
 
-[[6]](#_ftnref6) Some English courts seem to have been slow to catch up
+[^6]: Some English courts seem to have been slow to catch up
 with this and you will still find decisions talking about “originality”.
 There are some subtleties here – particularly for photographs and images
 – but for our purposes we can treat the only criterion that applies as
 “own intellectual creation”.
 
-[[7]](#_ftnref7) In the US, registration of copyright is optional, if a
+[^7]: In the US, registration of copyright is optional, if a
 work that has been registered is infringed, the owner may be able to
 obtain a much higher award of damages for the infringement.
 
-[[8]](#_ftnref8) C-444/02 (European Court of Justice)
+[^8]: C-444/02 (European Court of Justice)
 
-[[9]](#_ftnref9) [2013] EWCA Civ 27, followed in *Calor v Flogas*[2013]
+[^9]: [2013] EWCA Civ 27, followed in *Calor v Flogas*[2013]
 EWHC 3060 (Ch) where even the parts of Calor’s customer database that
 were created anew by Calor were thought to be protected
 
-[[10]](#_ftnref10) Indeed publicly created data might even be subject to
+[^10]: Indeed publicly created data might even be subject to
 the database right of the public body that is curating it, see
 http://www.techdirt.com/articles/20130211/08050521945/europes-database-right-could-throttle-open-data-moves-there.shtml
 
-[[11]](#_ftnref11) Article 7(5)
+[^11]: Article 7(5)
 
-[[12]](#_ftnref12) Directmedia Publishing v Albert-Ludwigs-Universität
+[^12]: Directmedia Publishing v Albert-Ludwigs-Universität
 Freiburg C-304/07
 
-[[13]](#_ftnref13) Innoweb v Wegener ICT Media BV C-202/12
+[^13]: Innoweb v Wegener ICT Media BV C-202/12
 
-[[14]](#_ftnref14) International News Service v. Associated Press, 248
+[^14]: International News Service v. Associated Press, 248
 U.S. 215 (1918)
 
-[[15]](#_ftnref15) EFF: The "Hot News" Doctrine After Fly On the Wall:
+[^15]: EFF: The "Hot News" Doctrine After Fly On the Wall:
 Surviving, But On Life Support (at
 https://www.eff.org/deeplinks/2011/06/hot-news-doctrine-surviving-life-support)
 
-[[16]](#_ftnref16) We are beginning to see (rightly in my view) the
+[^16]: We are beginning to see (rightly in my view) the
 adoption of a practice long existing in Hollywood which is to spell out
 that the licence extends beyond planet Earth.
 
-[[17]](#_ftnref17) See
+[^17]: See
 [http://opendefinition.org/](http://opendefinition.org/) The Open
 Definition is curated by the Open Knowledge Foundation (OKF). I declare
 an interest in that I frequently act for the OKF.
 
-[[18]](#_ftnref18) GNU is a recursive acronym for Gnu’s Not Unix. This
+[^18]: GNU is a recursive acronym for Gnu’s Not Unix. This
 is a computer science joke.
 
-[[19]](#_ftnref19) See
+[^19]: See
 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/
 
-[[20]](#_ftnref20) http://creativecommons.org/
+[^20]: http://creativecommons.org/
 
-[[21]](#_ftnref21) Part of the OKF
+[^21]: Part of the OKF
 
-[[22]](#_ftnref22) [Section
+[^22]: [Section
 1](http://www.legislation.gov.uk/ukpga/1990/18/section/1), [Computer
 Misuse Act 1990](http://www.legislation.gov.uk/ukpga/1990/18/contents).
 
-[[23]](#_ftnref23) [Directive
+[^23]: [Directive
 95/46/EC](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML)
 
-[[24]](#_ftnref24)http://ico.org.uk/for\_organisations/data\_protection/topic\_guides/\~/media/documents/library/Data\_Protection/Practical\_application/anonymisation-codev2.pdf
+[^24]:http://ico.org.uk/for\_organisations/data\_protection/topic\_guides/\~/media/documents/library/Data\_Protection/Practical\_application/anonymisation-codev2.pdf
 
-[[25]](#_ftnref25) http://www.ukanon.net/
+[^25]: http://www.ukanon.net/
 
-[[26]](#_ftnref26) Caparo Industries v Dickman [1990] 2 AC 605
+[^26]: Caparo Industries v Dickman [1990] 2 AC 605
