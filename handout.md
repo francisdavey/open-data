@@ -1,10 +1,18 @@
 ---
 title: "Open Data, Law and Licensing"
+author: 
+- name: Francis Davey
+  email: contact@francisdavey.co.uk
 ---
-Open Data, Law and Licensing[^1] {align="center" style="text-align:center"}
+
+<!--
+Open Data, Law and Licensing {align="center" style="text-align:center" .unnumbered}
 =============================================
 
-Francis Davey[^2]
+
+## [Francis Davey](mailto:contact@francisdavey.co.uk) {align="center" style="text-align:center" .unnumbered}
+-->
+
 
 Introduction
 ------------
@@ -133,9 +141,11 @@ Ownership of data
 -----------------
 
 Strictly speaking it is impossible to “own” data in the sense of having
-a property right in factual information. But there are now two property
+a property right in factual information.[^own] But there are now two property
 rights that apply to collections of data, technically known as
 “databases”.
+
+[^own]: Response Ltd v Datateam Business Media Ltd [[2014] EWCA Civ 281](http://www.bailii.org/ew/cases/EWCA/Civ/2014/281.html)
 
 ### Copyright
 
@@ -374,9 +384,9 @@ the contents of the database;
 
 * implying acts which:
 
-o    conflict with a normal exploitation of that database
+** conflict with a normal exploitation of that database
 
-o   or which unreasonably prejudice the legitimate interests of the
+** or which unreasonably prejudice the legitimate interests of the
 maker[^11]
 
 An **extraction** is involved when the database appears in a new medium.
@@ -912,8 +922,7 @@ rule) a warning that the data may contain inaccuracies etc in much the
 same way as a disclaimer in a contract described above, should make it
 very unlikely for liability to be found.
 
-
-* * * * *
+<!-- Older footnoes below here -->
 
 [^1]: version 4.4
 
