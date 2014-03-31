@@ -1,151 +1,44 @@
 ---
-title: "Open Data, Law and Licensing"
+title: "Open Data Law and Licensing"
 author: 
 - name: Francis Davey
   email: contact@francisdavey.co.uk
 ---
 
-<!--
-Open Data, Law and Licensing {align="center" style="text-align:center" .unnumbered}
-=============================================
-
-
-## [Francis Davey](mailto:contact@francisdavey.co.uk) {align="center" style="text-align:center" .unnumbered}
--->
-
 
 Introduction
 ------------
 
-### Law
+This handout is intended to accompany my talk on open data law and licensing. It
+does not follow the order of the slides and is intended to cover more material
+than it would be possible to discuss in a relatively short training session.
 
 Some previous attendees of this course have given feedback that the
 subtle interplay between court decisions and the law was not something
-they were familiar with. So this section offers some very brief notes on
-the point. Readers who are already familiar with the law in general
-(including lawyers) should jump to the next section.
+they were familiar with. I have included a rough guide to jurisdiction and the
+creation of law in a section at the end. 
 
-### Jurisdiction
+In this talk, I will be focussing particuarly on the law of England and Wales where I practice, but much of what I say will be applicable throughout Europe and, in some cases, internationally. 
 
-The legal world is, broadly speaking, divided into “jurisdictions”. In
-each jurisdiction the law is different and interpreted by different sets
-of courts. In the UK the jurisdictions are:
-
-* England and Wales
-
-* Scotland
-
-* Northern Ireland
-
-Scots law is much less like the law of the rest of the UK, but it still
-has a great deal in common.
-
-Some legislation in the UK is UK-wide: for example copyright and
-immigration law. Other legislation is specific to only parts of the UK
-(eg Scotland and England and Wales share the same employment law).
-
-Some countries have one jurisdiction for the whole country – eg France.
-In other countries quite the reverse is true. As well as the UK, a good
-example is the US where there are 51 different jurisdictions (one per
-state plus the District of Columbia).
-
-In the UK there is also an overlapping jurisdiction, that of the
-European Union. Where EU law and UK law conflict, EU law takes
-precedence.
-
-### Sources of Law
-
-Law consists mostly of a combination of two things.
-
-First written statements of the law by legislators. In the UK these
-include Acts of Parliament (also known as “statutes”) as well as a
-motley collection of what is known as “secondary” legislation with
-titles such as regulations, rules, orders and so on. Most (but not all)
-forms of secondary legislation are made in a standard form known as a
-“statutory instrument” which requires unique numbering and publication.
-
-In Scotland the Scottish Parliament can also make its own “Acts of the
-Scottish Parliament”.
-
-The other significant component of law is the interpretation of the law
-by the courts.[^3] In the UK a great deal of law was once made
-entirely by the courts working from various first principles and without
-any legislation to go on. For example the law of breach of confidence
-was entirely made up by the courts of England and Wales without help
-from any legislators. On the other hand, copyright and database rights
-are entirely based in legislation, though they have been subsequently
-interpreted by the courts in some cases in great detail.
-
-A substantial amount of the law relating to databases is part of
-European law. For our purposes, European law (the law of the European
-Union) consists primarily of three forms of legislation: the treaties
-setting up the EU, regulations and directives. In theory regulations are
-laws that apply directly in member states and directives are laws that
-need to be “transposed” into the law of a member state. The idea being
-that a directive will set out a template for the law, but some detail
-will be left to the legislators in each member state to fill in.
-
-For example, the Database Directive[^4] was transposed into UK
-law by the Copyright and Rights in Databases Regulations
-1997.[^5]
-
-### Precedent
-
-In the UK, courts adopt a system known as “precedent”. This arranges the
-courts into a hierarchy. If a court higher up the hierarchy makes a
-decision about a point of law, courts lower in the hierarchy are bound
-by that decision and cannot depart from it. Courts at the same level
-will usually follow earlier decisions of courts at their level (though
-the law on whether they have to do so is extremely complex and not easy
-to describe in a short series of notes).
-
-In England and Wales the hierarchy is:
-
-1.     The Supreme Court (formerly the House of Lords)
-
-2.     The Court of Appeal
-
-3.     The High Court (and some superior tribunals)
-
-Below the high court are various other courts (magistrates’ courts and
-county courts) which are not sufficiently important to set precedents at
-all.
-
-Courts will still take seriously decisions made by other courts which
-they respect.
-
-### The European Court of Justice
-
-The European Court of Justice (ECJ or sometimes now CJEU for Court of
-Justice of the European Union) has an unusual role. It can adjudicate
-disputes between member states and individuals with the EU, but its most
-significant role is in answering questions referred to it by courts in
-the Member States.
-
-For example, in the *Fixtures Marketing* case (see below), a court in
-Athens asked the ECJ three questions about the database right. The ECJ
-answered them and left the final decision on the case to the court in
-Athens.
-
-The ECJ is often asked to decide questions that depend on the particular
-facts of the case and it routinely makes clear that it is up to the
-national court to make those decisions. All the ECJ does is to clarify
-points of EU law that are referred to it.
-
-The ECJ’s decisions on EU law bind all courts in the Member States. It
-does not consider itself bound by its own previous decisions but it
-would be unusual for it to depart from a clear line of case law it had
-established.
 
 Ownership of data
 -----------------
 
 Strictly speaking it is impossible to “own” data in the sense of having
-a property right in factual information.[^own] But there are now two property
-rights that apply to collections of data, technically known as
-“databases”.
+a property right in factual information.[^own] Nevertheless it is possible to own:
+
+* copyright in the _expression_ of information (eg in a map or diagram)
+* database copyright in the selection or arrangement of a collection of data
+* database right in the investment in obtaining, verifying or presenting a database.
 
 [^own]: Response Ltd v Datateam Business Media Ltd [[2014] EWCA Civ 281](http://www.bailii.org/ew/cases/EWCA/Civ/2014/281.html)
+
+For this course I will mostly be concerned with rights in the database rather
+than rights in other expressions of information, but in considering how to 
+license a database you should consider how you will deal with:
+
+* the _contents_ of the database 
+* the _database itself_
 
 ### Copyright
 
@@ -383,10 +276,8 @@ the following:
 the contents of the database;
 
 * implying acts which:
-
-** conflict with a normal exploitation of that database
-
-** or which unreasonably prejudice the legitimate interests of the
+    + conflict with a normal exploitation of that database
+    + or which unreasonably prejudice the legitimate interests of the
 maker[^11]
 
 An **extraction** is involved when the database appears in a new medium.
@@ -553,9 +444,9 @@ The word “open” is used (or mis-used) by different groups to mean
 different things. For the ODI and for the purposes of today’s talk,
 “open” follows the Open Definition:
 
-A piece of data or content is open if anyone is free to use, reuse, and
-redistribute it — subject only, at most, to the requirement to attribute
-and/or share-alike.”[^17]
+> "A piece of data or content is open if anyone is free to use, reuse, and
+> redistribute it — subject only, at most, to the requirement to attribute
+> and/or share-alike.”[^17]
 
 ### Share-alike / viral licensing
 
@@ -922,6 +813,124 @@ rule) a warning that the data may contain inaccuracies etc in much the
 same way as a disclaimer in a contract described above, should make it
 very unlikely for liability to be found.
 
+## Jurisdiction and sources of law
+
+Some  So this section offers some very brief notes on
+the point. Readers who are already familiar with the law in general
+(including lawyers) should jump to the next section.
+
+### Jurisdiction
+
+The legal world is, broadly speaking, divided into “jurisdictions”. In
+each jurisdiction the law is different and interpreted by different sets
+of courts. In the UK the jurisdictions are:
+
+* England and Wales
+
+* Scotland
+
+* Northern Ireland
+
+Scots law is much less like the law of the rest of the UK, but it still
+has a great deal in common with English law.
+
+Some legislation in the UK is UK-wide: for example copyright and
+immigration law. Other legislation is specific to only parts of the UK
+(eg Scotland and England and Wales share the same employment law).
+
+Some countries contain a single jurisdiction – eg France.
+In other countries quite the reverse is true. The UK, with 3, is an example. Another is the United States where there are 51 different jurisdictions (one per
+state plus the District of Columbia).
+
+In the UK there is also an overlapping jurisdiction, that of the
+European Union. Where EU law and UK law conflict, EU law takes
+precedence. This has similarities with Federal law in the US which is overlaps
+(and overrides) state law.
+
+### Sources of Law
+
+Law consists mostly of a combination of two things.
+
+First written statements of the law by legislators. In the UK these
+include Acts of Parliament (also known as “statutes”) as well as a
+motley collection of what is known as “secondary” legislation with
+titles such as regulations, rules, orders and so on. Most (but not all)
+forms of secondary legislation are made in a standard form known as a
+“statutory instrument” which requires unique numbering and publication.
+
+In Scotland the Scottish Parliament can also make its own “Acts of the
+Scottish Parliament”.
+
+The other significant component of law is the interpretation of the law
+by the courts.[^3] In the UK a great deal of law was once made
+entirely by the courts working from various first principles and without
+any legislation to go on. For example the law of breach of confidence
+was entirely made up by the courts of England and Wales without help
+from any legislators. On the other hand, copyright and database rights
+are entirely based in legislation, though they have been subsequently
+interpreted by the courts in some cases in great detail.
+
+A substantial amount of the law relating to databases is part of
+European law. For our purposes, European law (the law of the European
+Union) consists primarily of three forms of legislation: the treaties
+setting up the EU, regulations and directives. In theory regulations are
+laws that apply directly in member states and directives are laws that
+need to be “transposed” into the law of a member state. The idea being
+that a directive will set out a template for the law, but some detail
+will be left to the legislators in each member state to fill in.
+
+For example, the Database Directive[^4] was transposed into UK
+law by the Copyright and Rights in Databases Regulations
+1997.[^5]
+
+### Precedent
+
+In the UK, courts adopt a system known as “precedent”. This arranges the
+courts into a hierarchy. If a court higher up the hierarchy makes a
+decision about a point of law, courts lower in the hierarchy are bound
+by that decision and cannot depart from it. Courts at the same level
+will usually follow earlier decisions of courts at their level (though
+the law on whether they have to do so is extremely complex and not easy
+to describe in a short series of notes).
+
+In England and Wales the hierarchy is:
+
+1.  The Supreme Court (formerly the House of Lords)
+
+2.  The Court of Appeal
+
+3.  The High Court (and some superior tribunals)
+
+Below the high court are various other courts (magistrates’ courts and
+county courts) which are not sufficiently important to set precedents at
+all.
+
+Courts will still take seriously decisions made by other courts which
+they respect.
+
+### The European Court of Justice
+
+The European Court of Justice (ECJ or sometimes now CJEU for Court of
+Justice of the European Union) has an unusual role. Although it can and does adjudicate
+disputes between member states and individuals with the EU, but its most
+significant role is in answering questions referred to it by courts in
+the Member States.
+
+For example, in the *Fixtures Marketing* case (see below), a court in
+Athens asked the ECJ three questions about the database right. The ECJ
+answered them and left the final decision on the case to the court in
+Athens.
+
+The ECJ is often asked to decide questions that depend on the particular
+facts of the case and it routinely makes clear that it is up to the
+national court to make those decisions. All the ECJ does is to clarify
+points of EU law that are referred to it.
+
+The ECJ’s decisions on EU law bind all courts in the Member States. It
+does not consider itself bound by its own previous decisions but it
+would be unusual for it to depart from a clear line of case law it had
+established.
+
 <!-- Older footnoes below here -->
 
 [^1]: version 4.4
@@ -950,7 +959,7 @@ obtain a much higher award of damages for the infringement.
 
 [^8]: C-444/02 (European Court of Justice)
 
-[^9]: [2013] EWCA Civ 27, followed in *Calor v Flogas*[2013]
+[^9]: [2013] EWCA Civ 27, followed in *Calor v Flogas* [2013]
 EWHC 3060 (Ch) where even the parts of Calor’s customer database that
 were created anew by Calor were thought to be protected
 
