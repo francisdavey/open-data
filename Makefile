@@ -1,15 +1,22 @@
-XELATEX=/usr/local/texlive/2013basic/bin/universal-darwin/xelatex
+# http://www.tylercipriani.com/2014/05/13/replace-jekyll-with-pandoc-makefile.html
 
-all: handout.html handout.pdf handout.docx index.html
+XELATEX = /usr/local/texlive/2013basic/bin/universal-darwin/xelatex
+SOURCE_DIR = source
+PAGES_DIR = pages
+PAGES=$(addprefix $(PAGES_DIR)/, $(subst .tex,.html, $(subst source/,,$(wildcard source/*.tex))))
 
-handout.html: handout.md templates/default.FORMAT
-	pandoc handout.md --standalone --template templates/default.FORMAT -o handout.html
+#HTMLPAGES=$(addprefix $(PAGES)/, $(addsuffix .html, $(subst source/,,$(wildcard source/*.tex))))
 
-handout.pdf: handout.md templates/default.latex
-	pandoc handout.md -o handout.pdf --template=templates/default.latex --latex-engine=$(XELATEX)
+all: $(PAGES) handout.pdf handout.docx index.html
 
-handout.docx: handout.md
-	pandoc handout.md -o handout.docx
+$(PAGES): $(PAGES_DIR)/%.html : $(SOURCE_DIR)/%.tex
+	pandoc -f latex -t html --standalone --template templates/default.FORMAT -o "$@" "$<"
 
+#handout.pdf: $(source)/handout.tex templates/default.latex
+#	pandoc handout.tex -f latex -o handout.pdf --template=templates/default.latex --latex-engine=$(XELATEX)
+#
+#handout.docx: $(source)/handout.tex
+#	pandoc handout.tex -f latex -o handout.docx
+#
 index.html: README.md templates/readme.FORMAT
 	pandoc README.md -o index.html --template=templates/readme.FORMAT
