@@ -1,0 +1,21 @@
+\documentclass{beamer}
+\usetheme{ZBH}
+
+\newenvironment{blockquote}{%
+  \par%
+  \medskip
+  \leftskip=4em\rightskip=2em%
+  \noindent\ignorespaces}{%
+  \par\medskip}
+
+
+\title{Are Unauthorised Sequels OK?}
+\author{Francis Davey}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\end{document}
