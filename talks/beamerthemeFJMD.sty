@@ -4,7 +4,7 @@
 % Jan 3rd, 2012
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{beamerthemeZBH}[2010/02/06 ZBH beamer theme]
+\ProvidesPackage{beamerthemeFJMD}[2010/02/06 ZBH beamer theme]
 \RequirePackage{ifthen}
 \RequirePackage{url}
 \RequirePackage[scaled=.85]{helvet}
@@ -37,32 +37,6 @@ contact@francisdavey.co.uk
 \setboolean{@use169}{false}
 \newlength{\@headerdist}
 \setlength{\@headerdist}{5mm}
-
-\DeclareOption{german}{
-  \renewcommand{\headertext}{
-    Zentrum f\"ur\\
-    Bioinformatik\\
-  }
-  \renewcommand{\addresstext}{
-    Universit\"at Hamburg\\
-    Zentrum f\"ur Bioinformatik\\
-    Bundesstra\ss e 43\\
-    20146 Hamburg\\[2mm]
-    http://www.zbh.uni-hamburg.de\\
-    info@zbh.uni-hamburg.de
-  }
-  \setboolean{@usegerman}{true}
-}
-
-\DeclareOption{1610}{
-  \def\backgroundfile{vorlage_uni_16_10}
-  \setboolean{@use1610}{true}
-}
-
-\DeclareOption{169}{
-  \def\backgroundfile{vorlage_uni_16_9}
-  \setboolean{@use169}{true}
-}
 
 \ProcessOptions
 
