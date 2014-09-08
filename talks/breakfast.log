@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.3.21)  8 SEP 2014 15:44
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.3.21)  8 SEP 2014 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -988,9 +988,9 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 5.10004pt on input line 21.
-File: P46.jpg Graphic file (type QTm)
+File: Blank.jpg Graphic file (type QTm)
 
-<use  "P46.jpg" >
+<use  "Blank.jpg" >
 File: background.jpg Graphic file (type QTm)
  <use  "background.jpg" >
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
@@ -999,15 +999,15 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 4.25003pt on input line 35.
+(Font)              scaled to size 4.25003pt on input line 36.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 35.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 4.25003pt on input line 35.
+(Font)              scaled to size 4.25003pt on input line 36.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 35.
+(Font)              scaled to size 8.50006pt on input line 36.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 35.
+(Font)              scaled to size 10.20007pt on input line 36.
 File: background.jpg Graphic file (type QTm)
  <use  "background.jpg" >
 [2
@@ -1035,24 +1035,28 @@ File: background.jpg Graphic file (type QTm)
 <use  "background.jpg" > [7
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 122.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 8.50006pt on input line 122.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 123.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.50006pt on input line 123.
 File: background.jpg Graphic file (type QTm)
  <use  "background.jpg" > [8
 
 ]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 146.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.50006pt on input line 146.
 File: background.jpg Graphic file (type QTm)
 
 <use  "background.jpg" > [9
 
 ]
-Missing character: There is no ä in font phvr7t!
 File: background.jpg Graphic file (type QTm)
  <use  "background.jpg" > [10
 
 ]
+Missing character: There is no ä in font phvr7t!
 File: background.jpg Graphic file (type QTm)
 
 <use  "background.jpg" > [11
@@ -1071,6 +1075,15 @@ File: background.jpg Graphic file (type QTm)
  <use  "background.jpg" > [14
 
 ]
+File: background.jpg Graphic file (type QTm)
+
+<use  "background.jpg" > [15
+
+]
+File: background.jpg Graphic file (type QTm)
+ <use  "background.jpg" > [16
+
+]
 \tf@nav=\write6
 \openout6 = `breakfast.nav'.
 
@@ -1080,20 +1093,20 @@ File: background.jpg Graphic file (type QTm)
 \tf@snm=\write8
 \openout8 = `breakfast.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
  (./breakfast.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 200.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
- 19991 strings out of 495199
- 361062 string characters out of 6175906
- 417717 words of memory out of 5000000
- 22795 multiletter control sequences out of 15000+600000
- 19066 words of font info for 54 fonts, out of 8000000 for 9000
+ 19999 strings out of 495199
+ 361164 string characters out of 6175906
+ 416717 words of memory out of 5000000
+ 22803 multiletter control sequences out of 15000+600000
+ 19735 words of font info for 55 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  48i,14n,51p,415b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on breakfast.pdf (14 pages).
+Output written on breakfast.pdf (16 pages).
