@@ -1,0 +1,80 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{ifxetex, ifluatex}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+ \usepackage{titlesec}
+
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+
+\setcounter{secnumdepth}{1}
+\setlength{\parindent}{0cm} % do not want paragraph indents
+
+% For Word like page layout to satisfy what people now expect
+
+\setlength{\marginparwidth}{2.5cm}
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
+%\setlength{\voffset}{2.5cm}
+
+\setmainfont{Times New Roman}
+\setsansfont{Cambria}
+
+\titleformat{\subsubsection}
+{\normalfont\large\itshape}{\thesubsection}{1em}{}
+
+
+\title{Handout}
+
+\author{Francis Davey}
+
+\date{}
+
+\begin{document}
+
+\raggedright
+
+\section*{Sample data: Open Corporates}
+OpenCorporates collects information about companies from more than 75 diferent jurisdictions. Most of the data is collected from official registries such as Companies House in the UK. It collects lots of different datasets about companies (depending on the jurisdiction). Some numbers:
+
+\begin{itemize}
+\item more than 80 million companies
+\item more than 4 million branch relationships
+\item more than 1 million filed company accounts
+\end{itemize}
+
+It provides a searchable website and an API access to its data.
+
+\section*{Licensing}
+
+Licenses may make almost {\bf any} restriction on use, including:
+\begin{itemize}
+\item geographical (eg only use in one country)
+\item purpose (eg non-commercial, only for print use)
+\item time (one year, as long as fee is paid)
+\end{itemize}
+
+There are standard open licenses:
+\begin{itemize}
+\item Open Government Licence (some attribution)
+\item CC-BY / ODC-By
+\item CC-BY-SA as above, but must share any resulting database under compatible licence
+\item ODbL - as above, but must also share any work produced from the database under an open licence.
+\end{itemize}
+
+Licenses
+\begin{verbatim}
+http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+http://creativecommons.org/licenses/by/4.0/
+http://creativecommons.org/licenses/by-sa/4.0/
+http://opendatacommons.org/licenses/by/
+http://opendatacommons.org/licenses/by/  
+\end{verbatim}
+
+
+
+\end{document}
