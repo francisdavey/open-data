@@ -1,10 +1,6 @@
 \RequirePackage{color}
 \RequirePackage{fontspec}
 
-%\fontfamily{helveticaneue}\selectfont
-%\newfontfamily\bodyfont[]{HelveticaNeueDeskUI}
-
-
 \setsansfont[
     Extension=.otf,
     UprightFont= *-regular,
@@ -12,8 +8,6 @@
     ItalicFont=*-italic,
     BoldItalicFont=*-bolditalic,
 ]{texgyreheros}
-
-
 
 %disable navigation
 \setbeamertemplate{navigation symbols}{}
@@ -27,10 +21,12 @@
 
 }
 
+\definecolor{odigray}{RGB}{191,191,191}
+
 \setbeamertemplate{frametitle}
 {
 \vspace{0.6cm}
-\color{gray}
+\color{odigray}
 {\Huge\insertframetitle}
 \par
 }
