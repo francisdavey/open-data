@@ -1,5 +1,6 @@
 \documentclass[aspectratio=169]{beamer}
 \usepackage{fontspec}
+%\usepackage{tex-gyre}
 \usetheme{francisodi}
 
 %\setmainfont{texgyreheros-regular.otf}[
@@ -7,7 +8,19 @@
 %  ItalicFont = texgyreheros-italic.otf,
 %  BoldItalicFont = texgyreheros-bolditalic.otf]
 
-\setsansfont{texgyreheros-regular.otf}
+%\setmainfont{TexGyre heros}
+%\setsansfont{texgyreheros-regular.otf}
+%
+
+\setsansfont[
+    Extension=.otf,
+    UprightFont= *-regular,
+    BoldFont=*-bold,
+    ItalicFont=*-italic,
+    BoldItalicFont=*-bolditalic,
+]{texgyreheros}
+
+
 
 \begin{document}
 \title{Managing Risk}
@@ -85,6 +98,27 @@ The contents
     \item Team A: Football Fixtures
     \item Team B: Football Live
     \end{itemize}
+  \end{frame}
+
+
+  \begin{frame}{Football fixtures lists}
+      \begin{itemize}
+      \item No Database Right
+        \begin{itemize}
+%        \item {\protect\textit{Fixtures Marketing v Organismos prognostikon agonon podosfairou }} (European Court of Justice}
+        \item created the data rather than obtained it
+        \item no substantial independent effort in verification
+        \end{itemize}
+      \item No Database Copyright
+        \begin{itemize}
+        \item database copyright about structure not contents
+        \item intellectual effort creating data irrelevant
+        \end{itemize}
+      \end{itemize}
+  \end{frame}
+
+  \begin{frame}{Football live data}
+    
   \end{frame}
 
 \end{document}
