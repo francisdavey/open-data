@@ -15,3 +15,20 @@
 {\Huge\insertframetitle}
 \par
 }
+
+% footer with name, date and page numbers
+\setbeamercolor{footline}{fg=gray}
+\setbeamertemplate{footline}{
+  \ifbeamer@plainframe
+  \else
+    \leavevmode\tiny%
+    %\hspace*{3.3cm}%
+    \hspace{0.75cm}
+    \includegraphics[height=0.25cm]{by-sa.eps}
+    \hspace{0.75cm}
+    \makebox[4cm][l]{\insertauthor}%
+    \makebox[4cm][l]{\insertdate}%
+      \hfill\insertframenumber/\inserttotalframenumber\hspace{5mm}%
+    \vspace{3mm}%
+  \fi
+}
