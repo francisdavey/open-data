@@ -1,0 +1,11 @@
+*.nav
+*.out
+*.snm
+*.toc
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.*~
+Makefile~
+\#*#
